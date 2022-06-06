@@ -517,13 +517,13 @@ public  class Application extends javafx.application.Application  {
                 increaseCount("Mole", 1.0);
                 increaseCount("Rabbit", 0.5);
                 increaseCount("Hare", 0.5);
-                increaseCount("Muskrat", 0.5);
+                increaseCount("Muskrat", 1.0);
                 increaseCount("Vole", 1.0);
                 increaseCount("Rat", 1.0);
                 increaseCount("Chipmunk", 1.0);
                 increaseCount("Flying Squirrel", 1.0);
                 increaseCount("Gray Fox", 0.5);
-                increaseCount("Skunk", 0.5);
+                increaseCount("Skunk", 0.5);gi
                 increaseCount("Otter", 0.5);
                 increaseCount("Badger", 0.5);
                 increaseCount("Raccoon", 0.5);
