@@ -2,7 +2,7 @@
 An interactive questionnaire to help identify mammals in Pennsylvania. 
 
 Hello!
-Thank you for using my mammal identifier, here are some answers for some questions you might have?
+Thank you for using my mammal identifier, here are some answers for some questions you might have
 
 Q) Can this help me identify birds?
 A) No, I don't know birds very well
