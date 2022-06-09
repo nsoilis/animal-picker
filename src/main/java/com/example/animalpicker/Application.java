@@ -16,7 +16,7 @@ import static javafx.scene.text.Font.font;
 
 public  class Application extends javafx.application.Application  {
 
-    final double HABITAT_INCREASE = 3.0, COAT_INCREASE = 1.5, COAT_INCREASE_SMALL = 1.0, TAIL_LENGTH_INCREASE = 1.5, HEIGHT_INCREASE = 1.5, WEIGHT_INCREASE = 1.5, TAIL_KIND_INCREASE = 1.0, TIME_OF_DAY_INCREASE = 0.5,
+    final double HABITAT_INCREASE = 3.0, COAT_INCREASE = 2.0, COAT_INCREASE_SMALL = 1.0, TAIL_LENGTH_INCREASE = 1.5, HEIGHT_INCREASE = 1.5, WEIGHT_INCREASE = 1.5, TAIL_KIND_INCREASE = 1.0, TIME_OF_DAY_INCREASE = 0.5,
                     HEIGHT_INCREASE_SMALL= 0.75, WEIGHT_INCREASE_SMALL = 0.75, ANIMAL_TOTAL = 10.5;
     Stage window;
     Scene startingScene, habitatScene, flyingScene, onLandScene, inWaterScene, inForestScene, neighborhoodScene, mountainsScene, heightScene,
