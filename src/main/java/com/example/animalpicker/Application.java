@@ -461,7 +461,13 @@ public  class Application extends javafx.application.Application  {
         buttonStream.setMaxWidth(Double.MAX_VALUE);
         HBox.setHgrow(buttonStream, Priority.ALWAYS);
             buttonStream.setOnAction(e -> {
-
+            window.setScene(heightScene);
+            increaseCount("Beaver", HABITAT_INCREASE);
+            increaseCount("Muskrat", HABITAT_INCREASE);
+            increaseCount("Red Fox", HABITAT_INCREASE);
+            increaseCount("Black Bear", HABITAT_INCREASE);
+            increaseCount("Otter", HABITAT_INCREASE);
+            increaseCount("Elk", HABITAT_INCREASE);
             });
         buttonMarsh.setMaxWidth(Double.MAX_VALUE);
         HBox.setHgrow(buttonMarsh, Priority.ALWAYS);
