@@ -639,7 +639,7 @@ public  class Application extends javafx.application.Application  {
                 increaseCount("Beaver", WEIGHT_INCREASE_SMALL);
                 increaseCount("Porcupine", WEIGHT_INCREASE);
                 increaseCount("Squirrel", WEIGHT_INCREASE);
-                increaseCount("Bobcat", WEIGHT_INCREASE_SMALL);
+                increaseCount("Bobcat", WEIGHT_INCREASE);
                 increaseCount("Coyote", WEIGHT_INCREASE);
                 increaseCount("Red Fox", WEIGHT_INCREASE);
                 increaseCount("Badger", WEIGHT_INCREASE);
