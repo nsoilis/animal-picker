@@ -67,6 +67,7 @@ public  class Application extends javafx.application.Application  {
         animalCount.put("Raccoon", STARTING_COUNT);
         animalCount.put("Elk", STARTING_COUNT);
         animalCount.put("Deer", STARTING_COUNT);
+        animalCount.put("Groundhog", STARTING_COUNT);
     }};
     public void increaseCount(String key, double value){
                 this.animalCount.merge(key, value, Double::sum);
@@ -250,6 +251,7 @@ public  class Application extends javafx.application.Application  {
                 increaseCount("Deer", HABITAT_INCREASE);
                 increaseCount("Elk", HABITAT_INCREASE);
                 increaseCount("Deer", HABITAT_INCREASE);
+                increaseCount("Groundhog", HABITAT_INCREASE);
             });
         buttonRiverSide.setMaxWidth(Double.MAX_VALUE);
         HBox.setHgrow(buttonRiverSide, Priority.ALWAYS);
@@ -314,6 +316,7 @@ public  class Application extends javafx.application.Application  {
                 increaseCount("Skunk", HABITAT_INCREASE);
                 increaseCount("Weasel", HABITAT_INCREASE);
                 increaseCount("Deer", HABITAT_INCREASE);
+                increaseCount("Groundhog", HABITAT_INCREASE);
             });
         buttonUnderLeaves.setMaxWidth(Double.MAX_VALUE);
         HBox.setHgrow(buttonUnderLeaves, Priority.ALWAYS);
@@ -372,6 +375,7 @@ public  class Application extends javafx.application.Application  {
                 increaseCount("Skunk", HABITAT_INCREASE);
                 increaseCount("Raccoon", HABITAT_INCREASE);
                 increaseCount("Deer", HABITAT_INCREASE);
+                increaseCount("Groundhog", HABITAT_INCREASE);
             });
         buttonOnWire.setMaxWidth(Double.MAX_VALUE);
         HBox.setHgrow(buttonOnWire, Priority.ALWAYS);
@@ -402,6 +406,7 @@ public  class Application extends javafx.application.Application  {
                 increaseCount("Coyote", HABITAT_INCREASE);
                 increaseCount("Gray Fox", HABITAT_INCREASE);
                 increaseCount("Black Bear", HABITAT_INCREASE);
+                increaseCount("Groundhog", HABITAT_INCREASE);
             });
         buttonOutInOpen.setMaxWidth(Double.MAX_VALUE);
         HBox.setHgrow(buttonOutInOpen, Priority.ALWAYS);
@@ -415,6 +420,7 @@ public  class Application extends javafx.application.Application  {
                 increaseCount("Coyote", HABITAT_INCREASE);
                 increaseCount("Gray Fox", HABITAT_INCREASE);
                 increaseCount("Black Bear", HABITAT_INCREASE);
+                increaseCount("Groundhog", HABITAT_INCREASE);
             });
         buttonDigging.setMaxWidth(Double.MAX_VALUE);
         HBox.setHgrow(buttonDigging, Priority.ALWAYS);
@@ -426,6 +432,7 @@ public  class Application extends javafx.application.Application  {
                 increaseCount("Mouse", HABITAT_INCREASE);
                 increaseCount("Vole", HABITAT_INCREASE);
                 increaseCount("Coyote", HABITAT_INCREASE);
+                increaseCount("Groundhog", HABITAT_INCREASE);
             });
 
 
@@ -536,6 +543,7 @@ public  class Application extends javafx.application.Application  {
                 increaseCount("Badger", HEIGHT_INCREASE_SMALL);
                 increaseCount("Raccoon", HEIGHT_INCREASE_SMALL);
                 increaseCount("Weasel", HEIGHT_INCREASE);
+                increaseCount("Groundhog", HEIGHT_INCREASE_SMALL);
             });
         buttonMedium.setMaxWidth(Double.MAX_VALUE);
         HBox.setHgrow(buttonMedium, Priority.ALWAYS);
@@ -556,6 +564,7 @@ public  class Application extends javafx.application.Application  {
                 increaseCount("Badger", HEIGHT_INCREASE);
                 increaseCount("Badger", HEIGHT_INCREASE);
                 increaseCount("Raccoon", HEIGHT_INCREASE);
+                increaseCount("Groundhog", HEIGHT_INCREASE);
             });
         buttonLarge.setMaxWidth(Double.MAX_VALUE);
         HBox.setHgrow(buttonLarge, Priority.ALWAYS);
@@ -620,6 +629,7 @@ public  class Application extends javafx.application.Application  {
                 increaseCount("Skunk", WEIGHT_INCREASE_SMALL);
                 increaseCount("Otter", WEIGHT_INCREASE_SMALL);
                 increaseCount("Weasel", WEIGHT_INCREASE);
+                increaseCount("Groundhog", WEIGHT_INCREASE_SMALL);
             });
         buttonWMedium.setMaxWidth(Double.MAX_VALUE);
         HBox.setHgrow(buttonWMedium, Priority.ALWAYS);
@@ -635,6 +645,7 @@ public  class Application extends javafx.application.Application  {
                 increaseCount("Otter", WEIGHT_INCREASE);
                 increaseCount("Badger", WEIGHT_INCREASE_SMALL);
                 increaseCount("Raccoon", WEIGHT_INCREASE);
+                increaseCount("Groundhog", WEIGHT_INCREASE);
             });
 
 
@@ -693,6 +704,7 @@ public  class Application extends javafx.application.Application  {
                 increaseCount("Weasel", TAIL_LENGTH_INCREASE);
                 increaseCount("Badger", TAIL_LENGTH_INCREASE);
                 increaseCount("Raccoon", TAIL_LENGTH_INCREASE);
+                increaseCount("Groundhog", TAIL_LENGTH_INCREASE);
             });
         buttonShortTail.setMaxWidth(Double.MAX_VALUE);
         HBox.setHgrow(buttonShortTail, Priority.ALWAYS);
@@ -757,6 +769,8 @@ public  class Application extends javafx.application.Application  {
                 increaseCount("Raccoon", TAIL_KIND_INCREASE);
                 increaseCount("Elk", TAIL_KIND_INCREASE);
                 increaseCount("Deer", TAIL_KIND_INCREASE);
+                increaseCount("Groundhog", TAIL_KIND_INCREASE);
+
             });
         buttonNotSure.setMaxWidth(Double.MAX_VALUE);
         HBox.setHgrow(buttonNotSure, Priority.ALWAYS);
@@ -803,6 +817,7 @@ public  class Application extends javafx.application.Application  {
                 increaseCount("Bobcat", COAT_INCREASE);
                 increaseCount("Coyote", COAT_INCREASE);
                 increaseCount("Gray Fox", COAT_INCREASE);
+                increaseCount("Groundhog", COAT_INCREASE_SMALL);
             });
         buttonBrown.setMaxWidth(Double.MAX_VALUE);
         HBox.setHgrow(buttonBrown, Priority.ALWAYS);
@@ -827,6 +842,7 @@ public  class Application extends javafx.application.Application  {
                 increaseCount("Black Bear", COAT_INCREASE_SMALL);
                 increaseCount("Elk", COAT_INCREASE);
                 increaseCount("Deer", COAT_INCREASE);
+                increaseCount("Groundhog", COAT_INCREASE);
             });
         buttonBlack.setMaxWidth(Double.MAX_VALUE);
         HBox.setHgrow(buttonBlack, Priority.ALWAYS);
@@ -880,6 +896,7 @@ public  class Application extends javafx.application.Application  {
                 increaseCount("Weasel", TIME_OF_DAY_INCREASE);
                 increaseCount("Elk", TIME_OF_DAY_INCREASE);
                 increaseCount("Deer", TIME_OF_DAY_INCREASE);
+                increaseCount("Groundhog", TIME_OF_DAY_INCREASE);
             });
         buttonNocturnal.setMaxWidth(Double.MAX_VALUE);
         HBox.setHgrow(buttonNocturnal, Priority.ALWAYS);
