@@ -811,6 +811,7 @@ public  class Application extends javafx.application.Application  {
         HBox.setHgrow(buttonGray, Priority.ALWAYS);
             buttonGray.setOnAction(e -> {
                 window.setScene(timeOfDayScene);
+                increaseCount("Shrew", COAT_INCREASE);
                 increaseCount("Opossum", COAT_INCREASE_SMALL);
                 increaseCount("Squirrel", COAT_INCREASE_SMALL);
                 increaseCount("Flying Squirrel", COAT_INCREASE);
@@ -823,7 +824,6 @@ public  class Application extends javafx.application.Application  {
         HBox.setHgrow(buttonBrown, Priority.ALWAYS);
             buttonBrown.setOnAction(e-> {
                 window.setScene(timeOfDayScene);
-                increaseCount("Shrew", COAT_INCREASE);
                 increaseCount("Mole", COAT_INCREASE);
                 increaseCount("Rabbit", COAT_INCREASE);
                 increaseCount("Hare", COAT_INCREASE);
